@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/flex.css">
+</head>
+
+<body>
+    <!-- <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-1" style="border: 1px solid red;">élément 1</div>  
+                <div class="col-2" style="border: 1px solid blue;">élément 2</div>
+                <div class="col-3" style="border: 1px solid green;">élément 3</div>
+                <div class="col-4" style="border: 1px solid black;">élément 4</div>
+                <div class="col-5" style="border: 1px solid yellow;">élément 5</div>
+                <div class="col-6" style="border: 1px solid pink;">élément 6</div>
+                <div class="col-7" style="border: 1px solid purple;">élément 7</div>
+                <div class="col-8" style="border: 1px solid orange;">élément 8</div>
+                <div class="col-9" style="border: 1px solid gray;">élément 9</div>
+                <div class="col-10" style="border: 1px solid aqua;">élément 10</div>
+                <div class="col-11" style="border: 1px solid brown;">élément 11</div>
+                <div class="col-12" style="border: 1px solid burlywood;">élément 12</div>
+            
+            
+                <div class="col-4" style="background-color:red;">élément 1</div>  
+                <div class="col-4" style="background-color:blue;">élément 2</div>  
+                <div class="col-4" style="background-color:green;">élément 3</div>  
+                
+            </div>
+        </div>
+    </div> -->
+    
+    
+    <div class="container">
+        <div class="col-4">
+             <div class="container">
+                    <h1>Les champs HTML5</h1>
+                <form action="test.html" method="post" class="form">
+                    <div class="col-4">
+                        <label for="nom">Nom</label>
+                        <input type="tel" name="tel" id="tel" pattern="^9[0-9]{10}" minlength="10" maxlength="10" required placeholder="0604058749">
+                    </div>
+
+                    <div class="col-4">
+                        <input type="date" name="date" required placeholder="Entrez une date">
+                    </div>
+
+
+                   <div class="col-4">
+                        <input type="url" name="url" required placeholder="http://www.monsite.fr">
+                    </div>
+
+                    <div class="col-4">
+                        <input type="time" name="time" required placeholder="Entrez l'heure">
+                    </div>
+
+                    <div class="col-4">
+                        <input type="datetime" name="datetime" id="datetime" required placeholder="Entrez l'heure et la date">
+                    </div>
+
+                    <div class="col-4">
+                        <input type="month" name="month" id="month" required placeholder="Entrez le mois">
+                    </div>
+
+                    <div class="col-4">
+                        <input type="week" name="week" id="week" required placeholder="Entrer une semaine">
+                    </div>
+
+                    <div class="col-4">
+                        <input type="number" name="number" required placeholder="Entrer un chiffre">
+                    </div>
+                    
+                    <div class="col-4">
+                        <input type="range" name="range" value="20$" min="0" max="50" step="10" required placeholder="jauge">
+                    </div>
+
+                    <div class="col-4">
+                        <select name="name">
+                            <option value="">Choisir une option</option>
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                            <option value="">Option 3</option>
+                            <option value="">Option 4</option>
+                            <option value="">Option 5</option>
+                          </select>
+                    </div>
+
+                    <div class="col-4">
+                        <input type="submit" value="Envoyer">
+                    </div>
+            </form>    
+        </div>
+    </div>
+</body>
+</html>
